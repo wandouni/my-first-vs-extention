@@ -12,12 +12,29 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "antd-code-helper.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "antd-code-helper",
+          "title": "antd-code-helper",
+          "icon": "resources/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "antd-code-helper": [
+        {
+          "type": "webview",
+          "id": "antd-code-helper.table",
+          "name": "table"
+        },
+        {
+          "type": "webview",
+          "id": "antd-code-helper.form",
+          "name": "form"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
