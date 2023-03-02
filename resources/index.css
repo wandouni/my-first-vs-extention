@@ -1,27 +1,40 @@
 .table-button {
-  width: 100%;
+  width: calc(100% - 8px);
   height: 32px;
-  background-color: #f6f8fa;
-  border-color: #1b1f2426;
-  border-radius: 4px;
+  background-color: #1f7acc;
+  border-color: transparent;
   margin-bottom: 10px;
+  color: #fff;
+  margin: 0 4px 4px;
+  cursor: pointer;
+}
+
+.table-button:hover,
+.cursor-button:hover {
+  background-color: #19609e;
 }
 
 .cursor-button {
-  width: 100%;
+  width: calc(100% - 8px);
   height: 32px;
-  background-color: #f6f8fa;
-  border-color: #1b1f2426;
-  border-radius: 4px;
+  background-color: #1f7acc;
+  border-color: transparent;
   margin-bottom: 10px;
+  color: #fff;
+  margin: 0 4px 4px;
+  cursor: pointer;
 }
 
 .table-input {
-  width: 100%;
+  width: calc(100% - 8px);
+  margin: 0 4px 4px;
   height: 200px;
+  border-color: transparent;
 }
 
 .table-output {
-  width: 200%;
+  width: calc(100% - 8px);
+  margin: 0 4px 4px;
   height: 50px;
+  border-color: transparent;
 }
