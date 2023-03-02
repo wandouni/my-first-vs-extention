@@ -1,6 +1,6 @@
 # antd-code-helper
 
-This is the README for your extension "antd-code-helper".
+![demo](readme.gif)
 
 ## Features
 
