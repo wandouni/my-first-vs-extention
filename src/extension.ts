@@ -42,7 +42,7 @@ class ColorsViewProvider implements vscode.WebviewViewProvider {
         }
         case 'insertIntoCursorCurrent': {
           vscode.window.activeTextEditor?.insertSnippet(
-            new vscode.SnippetString(`#${data.value}`),
+            new vscode.SnippetString(`${data.value}`),
           );
         }
       }
