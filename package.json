@@ -1,7 +1,8 @@
 {
-  "name": "antd-code-helper",
-  "displayName": "antd-code-helper",
+  "name": "antd-code-maker",
+  "displayName": "antd-code-maker",
   "description": "",
+  "publisher": "wandouni",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.75.0"
